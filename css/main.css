@@ -41,7 +41,16 @@ h3{
     color:white;
     font-family: 'Abel', sans-serif;
     font-size: 20px;
-
-    padding: 2em 2em 0em 2em;
-    list-style: none;
+   
+    margin-top: auto;
+    margin-bottom: auto;
     }
+    
+    .phones img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+         
+    }
+    
+   
