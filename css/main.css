@@ -59,7 +59,8 @@ h3{
 
 .font{
     color: #505571;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
 }
 
 .services h1{
@@ -86,3 +87,10 @@ h3{
     padding-top: 10vh;
     padding-bottom: 20vh;
 }
+
+.portfolio{
+    background-color:#303440;
+    height: 100vh;
+    width: 100%;
+}
+
