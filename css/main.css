@@ -53,7 +53,7 @@ h3{
     
 .services{
     background-color:#F2F2F2;
-    height:100vh;
+    height:70vh;
     width:100%;
 }
 
@@ -84,13 +84,28 @@ h3{
 }
 
 .container{
-    padding-top: 10vh;
-    padding-bottom: 20vh;
+
 }
 
 .portfolio{
     background-color:#303440;
-    height: 100vh;
+    height: 130vh;
     width: 100%;
 }
+.portfolio a{
+    text-decoration:none;
+    color: #505571;
+    border-style: solid;
+    border-width: 2px;
+    text-align:center;
+    border-radius: 5px;
+    padding-right:1em;
+    display: inline-block;
+}
 
+.portfolio img{
+        display: inline-block;
+        height: 30vh;
+        width: 40vh;
+
+}
