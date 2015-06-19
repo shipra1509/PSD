@@ -4,53 +4,57 @@
     width: 100%;
 }
 
-
 ul{
  display: block;
  float: right;
  width:auto;
  list-style-type: none;
-font-family: 'Abel', sans-serif;
-font-size: 14px;
  margin: 0;
  padding: 2em;
  list-style: none;
-
- }
+}
  
  .right>li>a{
      color: white;
- }
+}
+ 
 .navb{
      display:inline;
-     color: white;
      text-align:left;
+     font-family: 'Source Sans Pro', sans-serif;
      padding-right:1em;
+     font-size: 1em;
 }
 
 .phones{
     background-color: #EB5054;
     width: 100%;
-    height: 100vh;
-    }
-    .header{
+    height: 79vh;
+}
+    
+.header{
         display: inline;
-          }
+}
     
 h3{ 
     color:white;
-    font-family: 'Abel', sans-serif;
-    font-size: 20px;
-   
-    margin-top: auto;
-    margin-bottom: auto;
-    }
+    font-size: 1em;
+    display:inline;
+     text-align:left;
+     font-family: 'Source Sans Pro', sans-serif;
+     padding-right:1em;
+}
     
-    .phones img{
+.phones img{
+    height: 100vh;
     display: block;
     margin-left: auto;
     margin-right: auto;
-         
-    }
+}
+    
+
+    
+    
+   
     
    
