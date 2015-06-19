@@ -81,3 +81,8 @@ h3{
     font-size:1em;
     text-align: justify;
 }
+
+.container{
+    padding-top: 10vh;
+    padding-bottom: 20vh;
+}
