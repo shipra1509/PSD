@@ -30,7 +30,10 @@
         
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
-  
+     
+    <!--Including JQuery file -->
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script>
+
   </head>
 	
 	<body>
@@ -38,7 +41,7 @@
 	  <!--HOME-->
 	 <div id="home_i" class="home">
 	 <div class="heading container nav">
-	   <h3 class="header">SINGOLO<span style='color:red'>*</span></h3>
+	   <h3 class="header"><a href="#home_i">SINGOLO<span style='color:red'>*</span></a></h3>
 	   <ul class="right">
 	     <li class="navb"><a href="#home_i">HOME</a></li>
 	     <li class="navb"><a href="#services_i">SERVICES</a></li>
@@ -48,7 +51,7 @@
 	   </ul>
 	 </div>
 	 
-	 <div id = "iphones" class="phones">
+	 <div class="phones">
       <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   
           <!-- Wrapper for slides -->
@@ -287,19 +290,6 @@
 	     <a class="links" href="https://www.linkedin.com/" target="_blank"><img src="http://i296.photobucket.com/albums/mm168/shipra1509/circle/Social%20networking%20sites/linkedin_zpssunhzjqz.png" border="0" alt=" photo linkedin_zpssunhzjqz.png"/></a></p>
 	</div>
 
-   <script type="text/javascript">
-$(function(){
-  $("#nav a").click(function(e){
-    e.preventDefault();
-    $('html,body').scrollTo(this.hash,this.hash); 
-  });
-});
-
- $('.carousel').carousel({
-        interval: 300
-      });
-</script>
-   
    
 	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	 <script src="js/jquery-1.9.1.min.js"></script>

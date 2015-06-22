@@ -2,6 +2,22 @@
     background-color: #303440;
     height: 10vh;
     width: 100%;
+    position:fixed;
+    z-index: 1;
+}
+
+.header>a{
+    margin-left:40px;
+    margin-top:20px;
+    float: left;
+    font-size:0.8em;
+    text-decoration:none;
+    color:white;
+}
+
+h3{ 
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-right:1em;
 }
 
 ul{
@@ -14,7 +30,7 @@ ul{
  list-style: none;
 }
  
- .right>li>a{
+.right>li>a{
      color: white;
 }
  
@@ -29,20 +45,13 @@ ul{
 .phones{
     background-color: #EB5054;
     width: 100%;
-    height: 90vh;
+    height: 100vh;
+    vertical-align:middle;
+    padding-top: 20vh;   
 }
     
 .header{
         display: inline;
-}
-    
-h3{ 
-    color:white;
-    font-size: 1em;
-    display:inline;
-     text-align:left;
-     font-family: 'Source Sans Pro', sans-serif;
-     padding-right:1em;
 }
     
 .phones img{
@@ -162,4 +171,3 @@ border-color: #CA454A;
 .links{
 float:right;    
 }
-
