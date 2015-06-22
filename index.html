@@ -7,6 +7,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
     
+    <!--Scroll down likns-->
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery.scrollTo.js"></script>
+    
     <!--Font awesome links-->
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     
@@ -30,15 +34,17 @@
   </head>
 	
 	<body>
-	 <div class="home">
-	 <div class="heading">
+	  
+	  <!--HOME-->
+	 <div id="home_i" class="home">
+	 <div class="heading container nav">
 	   <h3 class="header">SINGOLO<span style='color:red'>*</span></h3>
 	   <ul class="right">
-	     <li class="navb"><a href="">HOME</a></li>
-	     <li class="navb"><a href="">SERVICES</a></li>
-	     <li class="navb"><a href="">PORTFOLIO</a></li>
-	     <li class="navb"><a href="">ABOUT</a></li>
-	     <li class="navb"><a href="">CONTACT</a></li>
+	     <li class="navb"><a href="#home_i">HOME</a></li>
+	     <li class="navb"><a href="#services_i">SERVICES</a></li>
+	     <li class="navb"><a href="#portfolio_i">PORTFOLIO</a></li>
+	     <li class="navb"><a href="#about_i">ABOUT</a></li>
+	     <li class="navb"><a href="#contact_i">CONTACT</a></li>
 	   </ul>
 	 </div>
 	 
@@ -50,7 +56,7 @@
            <div class="item active">
                 <img src="http://i296.photobucket.com/albums/mm168/shipra1509/Singolo/iphones_zpsrg3c8kki.png" border="0" alt="iphones photo">
            </div>
-    
+          
            <div class="item">
                 <img src="http://i296.photobucket.com/albums/mm168/shipra1509/Singolo/iphone_ver_zpsbwyehsa5.png" border="0" alt="iphone vertical"/>
            </div>
@@ -65,7 +71,7 @@
 	 
 	 
 	 <!--SERVICES CLASS-->
-	 <div class="services">
+	 <div id="services_i" class="services">
 	 
 	   <div class="container">
 	      <h1 class="margin font">Our Services</h1>
@@ -129,7 +135,7 @@
 	 </div> <!-- ending class services-->
 	    
 	<!--PORTFOLIO CLASS-->    
-	<div class="portfolio">
+	<div id="portfolio_i" class="portfolio">
 	  <div class="container">
 	    <h1 class="margin font">Portfolio</h1>
 	    <p class="blueP">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
@@ -189,7 +195,9 @@
 	 
 	</div><!--Portfolio class ends-->
 	
-	<div class="aboutUs"> <!--About Us-->
+	
+	<!--ABOUT US-->
+	<div id="about_i" class="aboutUs"> 
 	  <div class="container">
 	     <h1 class="margin font">About Us</h1>
 	     <p class="greyP">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta sem malesuada magna mollis euismod. Aenean eu leo quam. Etiam porta sem malesuada magna mollis euismod. Aenean eu leo quam.</p>
@@ -243,7 +251,7 @@
 	</div> <!--About Us-->
 	
 	<!--Get a quote-->
-	<div class="contact">
+	<div id="contact_i" class="contact">
 	  <div class="container">
 	  <h1 class="margin quote">Get a Quote</h1>
 	  <p class="contactP">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta sem malesuada magna mollis euismod. Aenean eu leo quam.</p><br>
@@ -278,12 +286,20 @@
 	     
 	     <a class="links" href="https://www.linkedin.com/" target="_blank"><img src="http://i296.photobucket.com/albums/mm168/shipra1509/circle/Social%20networking%20sites/linkedin_zpssunhzjqz.png" border="0" alt=" photo linkedin_zpssunhzjqz.png"/></a></p>
 	</div>
-	
-	 <script>
-      $('.carousel').carousel({
+
+   <script type="text/javascript">
+$(function(){
+  $("#nav a").click(function(e){
+    e.preventDefault();
+    $('html,body').scrollTo(this.hash,this.hash); 
+  });
+});
+
+ $('.carousel').carousel({
         interval: 300
       });
-   </script>
+</script>
+   
    
 	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	 <script src="js/jquery-1.9.1.min.js"></script>
