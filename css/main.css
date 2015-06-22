@@ -77,7 +77,7 @@ h2{
     font-weight: bold;
 }   
     
-p{    
+.greyP{    
     font-family:'Josefin Sans', sans-serif;
     font-size:1em;
     text-align: justify;
@@ -124,7 +124,27 @@ p{
 }
 
 .quote{
-   font-family: 'Open Sans', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
    font-weight: bold;
+   color: #E8ECF9;
 }
 
+.layout{
+background-color: #CA454A;
+border-color: #CA454A;
+}
+
+.blueP{
+    color: #505571;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+}
+
+.contactP{
+    color: #E8ECF9;
+    text-align:justify;
+}
+
+.contPad{
+ margin-top:0px;   
+}
