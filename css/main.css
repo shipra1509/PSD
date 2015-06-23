@@ -1,6 +1,10 @@
+body {
+  position: relative;
+}
+
 .heading{
     background-color: #303440;
-    height: 10vh;
+    height: 11vh;
     width: 100%;
     position:fixed;
     z-index: 1;
@@ -26,7 +30,6 @@ ul{
  width:auto;
  list-style-type: none;
  margin: 0;
- padding: 2em;
  list-style: none;
 }
  
@@ -51,7 +54,7 @@ ul{
 }
     
 .header{
-        display: inline;
+    display: inline;
 }
     
 .phones img{
@@ -170,12 +173,6 @@ border-color: #CA454A;
 
 .links{
     float:right;    
-}
-
-.navb>a:hover{
-     color:red;
-     text-decoration:none;
-     font-weight: bold;
 }
 
 .portfolio>a:hover{

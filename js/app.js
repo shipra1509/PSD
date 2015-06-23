@@ -1,5 +1,5 @@
 $(document).ready(function()    {
-$(function(){
+ $(function(){
   $("#nav a").click(function(e){
     e.preventDefault();
     $('html,body').scrollTo(this.hash,this.hash); 
@@ -9,4 +9,7 @@ $(function(){
  $('.carousel').carousel({
         interval: 300
       });
+
+$('body').scrollspy({ target : "#navbar-example"});
+  
 });
