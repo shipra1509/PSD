@@ -7,7 +7,7 @@ $(document).ready(function()    {
   });
 
   $('.carousel').carousel(function(){
-    interval: 300
+    interval: 300;
   });
 
   $('body').scrollspy({ target : "#navbar-example"});
@@ -17,7 +17,6 @@ $(document).ready(function()    {
     $('#portfolio_i .singolo-thumbnail').addClass('fadeOut');
     $('#portfolio_i .singolo-thumbnail' + this.dataset.filter).removeClass('fadeOut');
   });
-  
 });
 
 
